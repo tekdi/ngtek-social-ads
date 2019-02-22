@@ -6,6 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'tj-social-ads-library';
+  title = 'NgTekSocialAds';
   apiBaseUrl = 'https://app_staging.osianama.com/';
 }

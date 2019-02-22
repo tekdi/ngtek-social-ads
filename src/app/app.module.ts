@@ -3,15 +3,15 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { TjSocialAdsModule } from 'tj-social-ads';
+import { SocialAdsModule } from 'social-ads';
 @NgModule({
   declarations: [
-    AppComponent,
+    AppComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    TjSocialAdsModule
+    SocialAdsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
