@@ -1,6 +1,6 @@
 {
   "name": "@tekdi/ng-tek-social-ads",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -9,8 +9,11 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "build_lib": "ng build social-ads",
+    "copy-license": "cp ./LICENSE ./dist/social-ads",
+    "copy-readme": "cp ./README.md ./dist/social-ads",
+    "copy-files": "npm run copy-license && npm run copy-readme",
     "npm_pack": "cd dist/social-ads && npm pack",
-    "package": "npm run build_lib && npm run npm_pack"
+    "package": "npm run build_lib && npm run copy-files && npm run npm_pack"
   },
   "description": "This is an Angular module to display remote ads from the Techjoomla [Social Ads extension](https://techjoomla.com/products/social-ads). You can learn more about remote ads and multi site ad delivery [here](https://techjoomla.com/socialads-3.1-documentation/multi-site-ad-delivery)",
   "main": "index.js",
