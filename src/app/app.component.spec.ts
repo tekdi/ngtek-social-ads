@@ -20,16 +20,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'tj-social-ads-library'`, () => {
+  it(`should have as title 'NgTekSocialAds'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.title).toEqual('tj-social-ads-library');
+    expect(app.title).toEqual('NgTekSocialAds');
   });
 
   it('should render title in a h1 tag', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.debugElement.nativeElement;
-    expect(compiled.querySelector('h1').textContent).toContain('Welcome to tj-social-ads-library!');
+    expect(compiled.querySelector('h1').textContent).toContain('Welcome to NgTekSocialAds!');
   });
 });

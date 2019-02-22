@@ -19,11 +19,11 @@
       "dom"
     ],
     "paths": {
-      "tj-social-ads": [
-        "dist/tj-social-ads"
+      "social-ads": [
+        "dist/social-ads"
       ],
-      "tj-social-ads/*": [
-        "dist/tj-social-ads/*"
+      "social-ads/*": [
+        "dist/social-ads/*"
       ]
     }
   }

@@ -1,0 +1,24 @@
+{
+  "name": "@tekdi/ngtek-social-ads",
+  "version": "0.0.5",
+  "description": "This is an Angular module to display remote ads from the Techjoomla [Social Ads extension](https://techjoomla.com/products/social-ads). You can learn more about remote ads and multi site ad delivery [here](https://techjoomla.com/socialads-3.1-documentation/multi-site-ad-delivery)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tekdi/ngtek-social-ads.git"
+  },
+  "keywords": [
+    "techjoomla",
+    "social-ads",
+    "remote-ads"
+  ],
+  "author": "Tekdi Technologies",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/tekdi/ngtek-social-ads/issues"
+  },
+  "homepage": "https://github.com/tekdi/ngtek-social-ads#readme",
+  "peerDependencies": {
+    "@angular/common": "^7.1.0",
+    "@angular/core": "^7.1.0"
+  }
+}
