@@ -20,6 +20,7 @@ export class SocialAdsComponent implements OnInit {
   @Input() zone: number;
   @Input() num_ads: number;
   @Input() ad_rotation: number;
+  @Input() ad_rotation_delay: number;
   @Input() no_rand: number;
   @ViewChild('iframe_ads') iframe: ElementRef;
   constructor() { }
@@ -31,7 +32,8 @@ export class SocialAdsComponent implements OnInit {
       'zone': this.zone,
       'num_ads': this.num_ads,
       'ad_rotation': this.ad_rotation,
-      'no_rand': this.no_rand
+      'no_rand': this.no_rand,
+      'ad_rotation_delay': this.ad_rotation_delay,
    };
    ad_data_json = encodeURI(JSON.stringify(this.ad_widget));
    this.frameURL = this.baseUrl + 'index.php?option=com_sa&view=remotecontrol&template=system&adData=' +
