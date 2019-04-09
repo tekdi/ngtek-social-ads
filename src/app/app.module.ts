@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { SocialAdsModule } from '../../projects/social-ads/src/lib/social-ads.module';
+import { SocialAdsModule } from './social-ads.module';
 @NgModule({
   declarations: [
     AppComponent
